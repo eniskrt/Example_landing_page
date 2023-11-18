@@ -1,0 +1,82 @@
+:root{
+    --primary-violet: hsl(257, 40%, 49%);
+    --primary-magenta: hsl(300, 69%, 71%);
+}
+body{
+    background: url(../images/bg-desktop.svg) var(--primary-violet) no-repeat left bottom;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.row img.logo{
+    width: 250px;
+    margin: 2rem;
+}
+.row:nth-child(2) .col img{
+    margin-left: 2rem;
+}
+.row:nth-child(2) .col:nth-child(2) {
+    margin-top:4rem ;
+    margin-right: 3rem;
+}
+h1{
+    font-size: 2.5rem!important;
+    margin-right: 5rem;
+    color: white!important;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+button.btn{
+    background-color: white!important;
+    color: var(--primary-violet);
+    font-family: inherit;
+    padding: 10px 60px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+button.btn:hover{
+    background-color: var(--primary-magenta)!important;
+    color: white;
+}
+a.btn{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+a.btn:hover{
+    color: var(--primary-magenta);
+    border-color: var(--primary-magenta);
+}
+.social{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+}
+.card{
+    background-color: transparent;
+}
